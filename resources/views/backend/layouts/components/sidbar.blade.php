@@ -37,39 +37,17 @@
       </li>
       <li>
           <a href="javascript:;" class="has-arrow">
-              <div class="parent-icon"><i class="lni lni-book"></i></div>
-              <div class="menu-title">Portfolio</div>
+              <div class="parent-icon"><i class="lni lni-circle-plus"></i></div>
+              <div class="menu-title">Students</div>
           </a>
           <ul>
               <li>
-                  <a href="{{ route('portfolio.index') }}"><i class="bx bx-right-arrow-alt"></i>All Portfolio</a>
+                  <a href="{{ route('student.all') }}"><i class="bx bx-right-arrow-alt"></i>All Student</a>
               </li>
               <li>
-                  <a href="{{ route('portfolio.create') }}"><i class="bx bx-right-arrow-alt"></i>Add Portfolio</a>
+                  <a href="{{ route('student.register') }}"><i class="bx bx-right-arrow-alt"></i>Add Student</a>
               </li>
-              <li>
-              <li> <a href="{{ route('portfolio-category.index') }}"><i class="lni lni-checkbox"></i>Category</a>
-              </li>
+          </ul>
       </li>
-
-  </ul>
-  </li>
-  <li>
-      <a href="javascript:;" class="has-arrow">
-          <div class="parent-icon"><i class="bx bx-spa"></i></div>
-          <div class="menu-title">Application</div>
-      </a>
-      <ul>
-          <li>
-              <a href="app-emailbox.html"><i class="bx bx-right-arrow-alt"></i>Email</a>
-          </li>
-          <li>
-              <a href="app-chat-box.html"><i class="bx bx-right-arrow-alt"></i>Chat Box</a>
-          </li>
-          <li>
-              <a href="app-file-manager.html"><i class="bx bx-right-arrow-alt"></i>File Manager</a>
-          </li>
-      </ul>
-  </li>
   </ul>
   <!--end navigation-->

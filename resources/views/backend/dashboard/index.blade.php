@@ -42,7 +42,7 @@
                             <div class="d-flex align-items-center">
                                 <div>
                                     <p class="mb-0">Total Users</p>
-                                    <h5 class="mb-0">24.5K</h5>
+                                    <h5 class="mb-0">{{ $user }}</h5>
                                 </div>
                                 <div class="ms-auto">
                                     <i class="bx bx-group font-30"></i>
